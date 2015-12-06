@@ -22,6 +22,7 @@ Features:
 - I have calculated attitude based on William Premerlani and Jose Julio code using the DCM matrix. I have to say that the drift that I have obtained is almost zero. I actualize the DCM matrix by 10ms using the timer2 without interrupts and with a timer set by 64us step for improve results.
 
 
+
 - The main control PID is executed by 20ms, therefore I read IMU by 10ms and I control pitch, roll and yaw for two IMU readers.
 
 
@@ -30,3 +31,5 @@ Features:
 - For read the servos command from receiver I have used a basic multiplexer 74LS151 and the ICP timer 5 for better performance.
 
 - Finally, I have implemented the USART sending commands for set PID parameters by interrupts. Furthermore PID paremeters are saved in EEPROM, so you must write Flash and EEPROM memories.
+
+//(written only for self use)
