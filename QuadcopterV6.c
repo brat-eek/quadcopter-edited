@@ -1,9 +1,5 @@
-@@ -0,0 +1,425 @@
-/*********************************************************************
-
 			Quadcopter with PID control and MPU6050
-	Created: 21/01/2014
-	
+
 	Improve - DCM IMU instead Complementary Filter
 			- Without interrupts to temporize samples
 			- ESC at 333 Hz
@@ -13,34 +9,6 @@
 			- Readers servo Receiver RX with an Multiplexer and the ICP timer5
 			
 			
-	Based on William Premerlani paper and Jose Julio code for DCM matrix
-	
-			Copyright (C) 2014  Juan Lopez Medina
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-	You can contact me in julome21@gmail.com
-
-    Quadcopter Adaptive  Copyright (C) 2014  Juan Lopez Medina
-	
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-
- ****************************************************************************/  
-
-
 /*****************************************************************************
 
 	- Min_Throttle Futaba 10CP 1108
