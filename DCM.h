@@ -1,26 +1,4 @@
-@@ -0,0 +1,49 @@
-/********************************************************
-  Header file Library for DCM matrix attitude 
- - Based on William Premerlani paper and Jose Julio code for DCM matrix
- 	
-    Copyright (C) 2014  Juan Lopez Medina
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License along
-    with this program; if not, write to the Free Software Foundation, Inc.,
-    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-* You can contact me by mail : julome21@gmail.com
-*********************************************************/
+//  Header file Library for DCM matrix attitude 
 
 extern double a_result[3];			// Roll, pitch, yaw
 extern double gyro;					// Move reference for Yaw control
