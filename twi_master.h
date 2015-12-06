@@ -1,14 +1,13 @@
-					Library for TWI AVR
+/*					Library for TWI AVR
 		Based on AVR315 - TWI Master Implementation Atmel Corporation
 		
 		Improved:
 				- Time out for not hold in loop
-				- Function TWI_Get_Data_From_Transceiver modified
+				- Function TWI_Get_Data_From_Transceiver modified  */
 
-/*****************************************************************************
+/*
 	Use TWI_Master_Initialise(); in your setup code for initalize the TWI
-
-*****************************************************************************/
+*/
 
 #ifndef _twi_master_h_
 #define _twi_master_h_
