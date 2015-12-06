@@ -1,4 +1,4 @@
-			Quadcopter with PID control and MPU6050
+/*			Quadcopter with PID control and MPU6050
 
 	Improve - DCM IMU instead Complementary Filter
 			- Without interrupts to temporize samples
@@ -6,17 +6,16 @@
 			- Time sample IMU (Calculate DCM) at 10 ms. Using timer 2 without interrupts and step by 64us.
 			- Time control at 2 * Time sapmple (20ms)
 			- Commands KPr, KIr, KDr and KPy, KIy, KDy for set PID through USART
-			- Readers servo Receiver RX with an Multiplexer and the ICP timer5
+			- Readers servo Receiver RX with an Multiplexer and the ICP timer5  */
 			
 			
-/*****************************************************************************
+/*
 
 	- Min_Throttle Futaba 10CP 1108
 	- Max_Throttle Futaba 10CP 1932
 	- For calibrate ESC Off all control, Disable calibrate_radio and gyro_offset. Go Throttle max...
-	- You must write Flash memory and EEPROM when you programming device
-
-******************************************************************************/
+	- You must write Flash memory and EEPROM when you programming device  */
+	
 
 #define F_CPU           16000000UL			// Frequency XTAL 16MHz
 
