@@ -1,9 +1,9 @@
-Header file Library for send data through USART AVR	
+ /* Header file Library for send data through USART AVR	*/
 
-/************** Intructions ********
+/*                  ***** Intructions ******
 To use this library you must initilize in you header project by the function: usart_init();
 
-Then you can to use five functions as follow:
+Then you can to use five functions as follow: */
 
 put_float(variable);        // Send float data
 put_string(" ");            // Send character space
